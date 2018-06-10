@@ -112,3 +112,7 @@ SELECT LAST_NAME "Employee", SALARY "Monthly Salary",
 COMMISSION_PCT 
 from employees
 where COMMISSION_PCT=.20;
+
+
+--CHARTER 4
+SELECT sysdate "Date" FROM dual
